@@ -1,0 +1,58 @@
+.name{
+    text-decoration: underline;
+    color: blue;
+}
+
+.input{
+    border: none;
+}
+
+.submeter{
+    background-color: #E83C49;
+    border-radius: 5px;
+    padding: 8px;
+    border: solid 2px #E83C49;
+    font-size: 1.2em;
+    margin-right: 8px;
+    color: white;
+}
+.apagar{
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 8px;
+    border: solid 2px #E83C49;
+    color: #E83C49;
+    font-size: 1.2em;
+    margin-right: 8px;
+}
+
+.submeter2{
+    background-color: #333333;
+    border-radius: 5px;
+    padding: 8px;
+    border: solid 2px #333333;
+    font-size: 1.2em;
+    margin-right: 8px;
+    color: white;
+}
+.apagar2{
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 8px;
+    border: solid 2px #333333;
+    color: #333333;
+    font-size: 1.2em;
+    margin-right: 8px;
+}
+
+.minetext{
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.minetext > p{
+    max-width: 400px;
+    text-align: right;
+}
