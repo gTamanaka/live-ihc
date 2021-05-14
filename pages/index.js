@@ -4,7 +4,8 @@ import HolyGrailTemplate from '../templates/holy-grail/holy-grail.template'
 export default function Index() {
   return (
     <HolyGrailTemplate>
-      <h1>Live Interfaces Humano Computador</h1>
+      <h1> Fim da primeira Live</h1>
+      {/* <h1>Live Interfaces Humano Computador</h1>
 
       <h2>Valor Léxico, sintático, semático</h2>
       <div onClick={() => window.location.href = 'http://www.google.com'}> Google </div>
@@ -27,8 +28,12 @@ export default function Index() {
       <input className={styles.input} placeholder="Gustavo Tamanaka"></input>
 
       <h2>Declustering</h2>
-      <button className={styles.submeter}> Submeter </button>
-      <button className={styles.apagar}>Apagar</button>
+      <button className={styles.submeter}> 
+      Submeter 
+      </button>
+      <button className={styles.apagar}>
+        Apagar
+      </button>
 
       <h2>Informações de varreduras</h2>
       <div className={styles.minetext}>
@@ -44,7 +49,7 @@ export default function Index() {
 
       <h2>Processos cognitivos e decisão</h2>
       <button className={styles.submeter2}> Assinar Produto </button>
-      <button className={styles.apagar2}>Obrigado</button>
+      <button className={styles.apagar2}>Obrigado</button> */}
     </HolyGrailTemplate>
   )
 }
